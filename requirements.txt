@@ -1,0 +1,9 @@
+# Ensure Python version >= 3.8
+torch>=1.7.1
+tensorboard
+timm==0.4.12
+scipy
+einops
+scikit-learn
+pandas
+git+https://github.com/openai/CLIP.git
