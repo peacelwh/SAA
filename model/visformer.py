@@ -200,8 +200,8 @@ class Visformer(nn.Module):
         dpr = [x.item() for x in torch.linspace(0, drop_path_rate, depth)]
 
         if phase== 'meta':
-            self.loss_weight = nn.Parameter(torch.tensor(0.0))
-            self.loss_weight1 = nn.Parameter(torch.tensor(0.0))
+            self.loss_weight = nn.Parameter(torch.tensor(0.4))
+            self.loss_weight1 = nn.Parameter(torch.tensor(0.5))
 
             self.prompt_weight = nn.Parameter(torch.tensor(0.3))
             prompt_shape = (1, 384)
