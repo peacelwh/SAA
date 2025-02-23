@@ -2,11 +2,11 @@
 
 # Method
 Despite being annotated as ``house finch'', the image contains objects of other classes, such as ``branch'', ``Pipe'', etc. Moreover, target objects could appear at different scales, leading to varying numbers of noisy regions. Our SAA achieves class-specific feature extraction guided by multimodal prompts and robustness to spatial variations via hierarchical structure.
-<img src='imgs/fig1_00.jpg' width='640'>
+<img src='imgs/figure1_00.jpg' width='640'>
 
 **Overall framework**
 
-<img src='imgs/fig2_00.jpg'>
+<img src='imgs/figure2_00.jpg'>
 
 
 
