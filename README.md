@@ -1,7 +1,7 @@
 # Semantic-Aware Adaptation with Hierarchical Multimodal Prompts for Few-Shot Learning
 
 # Method
-Despite being annotated as ``house finch'', the image contains objects of other classes, such as ``branch'', ``Pipe'', etc. Moreover, target objects could appear at different scales, leading to varying numbers of noisy regions. Our SAA achieves class-specific feature extraction guided by multimodal prompts and robustness to spatial variations via hierarchical structure.
+Despite being annotated as "house finch", the image contains objects of other classes, such as "branch", "Pipe", etc. Moreover, target objects could appear at different scales, leading to varying numbers of noisy regions. Our SAA achieves class-specific feature extraction guided by multimodal prompts and robustness to spatial variations via hierarchical structure.
 <img src='imgs/figure1_00.jpg' width='640'>
 
 **Overall framework**
